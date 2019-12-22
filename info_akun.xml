@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#b17243"
+    android:layout_height="match_parent"
+    tools:context=".i_akn">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:text="Vocer Saya"
+        android:textColor="#000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:text="bantuan"
+        android:textColor="#000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:text="Kebijakan Privasi"
+        android:textColor="#000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:text="Ketentuan Layanan"
+        android:textColor="#000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffff"
+        android:text="Info Aplikasi"
+        android:textColor="#000"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="375dp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="414dp"
+        android:layout_height="28dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Ujang"
+            android:textColor="#000"
+            android:textSize="18dp"
+
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Ujang"
+            android:textColor="#000"
+            android:textSize="20dp"
+
+            />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="416dp"
+        android:layout_height="40dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="ujang@gmail.com"
+            android:textColor="#000"
+            android:textSize="18dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="418dp"
+        android:layout_height="40dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="92dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="08123456789"
+            android:textColor="#000"
+            android:textSize="18dp"
+
+            />
+
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <ImageButton
+        android:onClick="home"
+        android:id="@+id/home"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageButton
+        android:onClick="berlangsung"
+        android:id="@+id/list"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/list"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageButton
+        android:id="@+id/user"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+
+    <ImageButton
+        android:id="@+id/edit"
+        android:layout_width="91dp"
+        android:layout_height="35dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/edit"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="438dp" />
+
+
+</android.support.constraint.ConstraintLayout>
