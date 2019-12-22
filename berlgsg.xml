@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#b17243"
+    android:layout_height="match_parent"
+    tools:context=".berlgsg">
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:background="#FFEB3B"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Toko A, 21/1/2018"
+            android:textColor="#000"
+            android:textSize="22dp"
+            android:textStyle="bold"
+
+            />
+
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="53dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="1 Boots            Rp. 25.000"
+            android:textColor="#000"
+            android:textSize="20dp"/>
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="127dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text=" Ongkir              Rp. 20.000"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="90dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="1 Sneakers      Rp. 20.000"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="415dp"
+        android:layout_height="37dp"
+        android:background="#ffff"
+        android:verticalScrollbarPosition="defaultPosition"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="164dp">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text=" TOTAL             Rp. 65.000"
+            android:textColor="#000"
+            android:textSize="20dp" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/history"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/history"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="532dp" />
+
+    <ImageButton
+
+        android:id="@+id/home"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/home"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageButton
+        android:id="@+id/list"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/list"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <ImageButton
+        android:id="@+id/user"
+        android:layout_width="122dp"
+        android:layout_height="70dp"
+        android:background="#b17243"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/user"
+        tools:layout_editor_absoluteX="289dp"
+        tools:layout_editor_absoluteY="664dp" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>
